@@ -1,1 +1,7 @@
-Phaser3_Components
+# Phaser3_Components
+
+## このプロジェクトについて
+
+自身がPhaserを使うときに「こんなものがあったらいいな」と思ったものを
+コンポーネントとして作っていきたいと思います。
+基本はtypescriptで作っているPhaserプロジェクトのコンポーネントとします。
