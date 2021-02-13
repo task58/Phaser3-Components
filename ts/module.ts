@@ -1,7 +1,9 @@
 import {Button} from "./Button";
 import {InputManager} from "./InputManager"
 
-export default {
-    Button,
+namespace Phaser3_Components{
+    Button
     InputManager
 }
+
+export default Phaser3_Components
