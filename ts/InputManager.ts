@@ -16,14 +16,14 @@ interface KeyBinds {
  */
 export class InputManager extends Phaser.Scene{
 
-    readonly keys!: KeyBinds;
+    private keys: KeyBinds;
 
     constructor(){
         super({
             key : "InputManager"
         })
 
-        
+        this.keys={};
     }
 
 
