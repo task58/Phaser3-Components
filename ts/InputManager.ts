@@ -23,7 +23,7 @@ export class InputManager extends Phaser.Scene{
             key : "InputManager"
         })
 
-        this.keys = {};
+        this.keys={};
     }
 
 
