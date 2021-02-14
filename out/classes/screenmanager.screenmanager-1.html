@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>InputManager | phaser3_components</title>
+	<title>ScreenManager | phaser3_components</title>
 	<meta name="description" content="Documentation for phaser3_components">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -55,13 +55,13 @@
 					<a href="../modules.html">phaser3_components</a>
 				</li>
 				<li>
-					<a href="../modules/inputmanager.html">InputManager</a>
+					<a href="../modules/screenmanager.html">ScreenManager</a>
 				</li>
 				<li>
-					<a href="inputmanager.inputmanager-1.html">InputManager</a>
+					<a href="screenmanager.screenmanager-1.html">ScreenManager</a>
 				</li>
 			</ul>
-			<h1>Class InputManager</h1>
+			<h1>Class ScreenManager</h1>
 		</div>
 	</div>
 </header>
@@ -71,18 +71,9 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>入力を管理するクラス。
-							シーンとしてのKeyは、&quot;InputManager&quot;なので、<br>
-							使用したいところで<code>this.scene.launch(&quot;InputManager&quot;)</code>した後に、<br>
-						<code>this.scene.get(&quot;InputManager&quot;)</code>して利用してください。</p>
+						<p>スクリーンに関係することを処理するクラス。
+						<code>this.scene.lunch(&quot;ScreenManager&quot;)</code>した後、<code>this.scene.get(&quot;ScreenManager&quot;)</code>してください。</p>
 					</div>
-					<dl class="tsd-comment-tags">
-						<dt>module</dt>
-						<dd></dd>
-						<dt>since</dt>
-						<dd><p>0.1.0</p>
-						</dd>
-					</dl>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -92,7 +83,7 @@
 						<span class="tsd-signature-type">Scene</span>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">InputManager</span>
+								<span class="target">ScreenManager</span>
 							</li>
 						</ul>
 					</li>
@@ -105,47 +96,45 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="inputmanager.inputmanager-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="screenmanager.screenmanager-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#add" class="tsd-kind-icon">add</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#anims" class="tsd-kind-icon">anims</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#cache" class="tsd-kind-icon">cache</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#cameras" class="tsd-kind-icon">cameras</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#children" class="tsd-kind-icon">children</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#data" class="tsd-kind-icon">data</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#events" class="tsd-kind-icon">events</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#facebook" class="tsd-kind-icon">facebook</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#game" class="tsd-kind-icon">game</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#input" class="tsd-kind-icon">input</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="inputmanager.inputmanager-1.html#keys" class="tsd-kind-icon">keys</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#lights" class="tsd-kind-icon">lights</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#load" class="tsd-kind-icon">load</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#make" class="tsd-kind-icon">make</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#matter" class="tsd-kind-icon">matter</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#physics" class="tsd-kind-icon">physics</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#plugins" class="tsd-kind-icon">plugins</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#registry" class="tsd-kind-icon">registry</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#renderer" class="tsd-kind-icon">renderer</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#scale" class="tsd-kind-icon">scale</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#scene" class="tsd-kind-icon">scene</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#sound" class="tsd-kind-icon">sound</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#sys" class="tsd-kind-icon">sys</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#textures" class="tsd-kind-icon">textures</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#time" class="tsd-kind-icon">time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="inputmanager.inputmanager-1.html#tweens" class="tsd-kind-icon">tweens</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#add" class="tsd-kind-icon">add</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#anims" class="tsd-kind-icon">anims</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="screenmanager.screenmanager-1.html#autoresize" class="tsd-kind-icon">auto<wbr>Resize</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#cache" class="tsd-kind-icon">cache</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#cameras" class="tsd-kind-icon">cameras</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#children" class="tsd-kind-icon">children</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#data" class="tsd-kind-icon">data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#events" class="tsd-kind-icon">events</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#facebook" class="tsd-kind-icon">facebook</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#game" class="tsd-kind-icon">game</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#input" class="tsd-kind-icon">input</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#lights" class="tsd-kind-icon">lights</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#load" class="tsd-kind-icon">load</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#make" class="tsd-kind-icon">make</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#matter" class="tsd-kind-icon">matter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#physics" class="tsd-kind-icon">physics</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#plugins" class="tsd-kind-icon">plugins</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#registry" class="tsd-kind-icon">registry</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#renderer" class="tsd-kind-icon">renderer</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#scale" class="tsd-kind-icon">scale</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#scene" class="tsd-kind-icon">scene</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#sound" class="tsd-kind-icon">sound</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#sys" class="tsd-kind-icon">sys</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#textures" class="tsd-kind-icon">textures</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#time" class="tsd-kind-icon">time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="screenmanager.screenmanager-1.html#tweens" class="tsd-kind-icon">tweens</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="inputmanager.inputmanager-1.html#create" class="tsd-kind-icon">create</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="inputmanager.inputmanager-1.html#getkeydown" class="tsd-kind-icon">get<wbr>Key<wbr>Down</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="inputmanager.inputmanager-1.html#getkeyup" class="tsd-kind-icon">get<wbr>Key<wbr>Up</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="inputmanager.inputmanager-1.html#update" class="tsd-kind-icon">update</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="screenmanager.screenmanager-1.html#setautoresize" class="tsd-kind-icon">set<wbr>Auto<wbr>Resize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="screenmanager.screenmanager-1.html#update" class="tsd-kind-icon">update</a></li>
 							</ul>
 						</section>
 					</div>
@@ -157,16 +146,16 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Input<wbr>Manager<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="inputmanager.inputmanager-1.html" class="tsd-signature-type" data-tsd-kind="Class">InputManager</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Screen<wbr>Manager<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="screenmanager.screenmanager-1.html" class="tsd-signature-type" data-tsd-kind="Class">ScreenManager</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L19">ts/InputManager.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/ScreenManager.ts#L9">ts/ScreenManager.ts:9</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <a href="inputmanager.inputmanager-1.html" class="tsd-signature-type" data-tsd-kind="Class">InputManager</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="screenmanager.screenmanager-1.html" class="tsd-signature-type" data-tsd-kind="Class">ScreenManager</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -204,6 +193,16 @@
 							This property will only be available if defined in the Scene Injection Map.</p>
 						</div>
 					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="autoresize" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> auto<wbr>Resize</h3>
+					<div class="tsd-signature tsd-kind-icon">auto<wbr>Resize<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/ScreenManager.ts#L9">ts/ScreenManager.ts:9</a></li>
+						</ul>
+					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="cache" class="tsd-anchor"></a>
@@ -332,16 +331,6 @@
 							This property will only be available if defined in the Scene Injection Map and the plugin is installed.</p>
 						</div>
 					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
-					<a name="keys" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> keys</h3>
-					<div class="tsd-signature tsd-kind-icon">keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">KeyBinds</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L19">ts/InputManager.ts:19</a></li>
-						</ul>
-					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="lights" class="tsd-anchor"></a>
@@ -586,89 +575,33 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="create" class="tsd-anchor"></a>
-					<h3>create</h3>
+					<a name="setautoresize" class="tsd-anchor"></a>
+					<h3>set<wbr>Auto<wbr>Resize</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">create<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Auto<wbr>Resize<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L30">ts/InputManager.ts:30</a></li>
+									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/ScreenManager.ts#L23">ts/ScreenManager.ts:23</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>画面のオートリサイズを有効にするか設定する。(初期値:true)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>有効にするかどうか trueで有効になる。</p>
+									</div>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="getkeydown" class="tsd-anchor"></a>
-					<h3>get<wbr>Key<wbr>Down</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Key<wbr>Down<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L44">ts/InputManager.ts:44</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>指定したキーが押されたかどうかを取得する。</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>method</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>key: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>キーの名前</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="getkeyup" class="tsd-anchor"></a>
-					<h3>get<wbr>Key<wbr>Up</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Key<wbr>Up<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L58">ts/InputManager.ts:58</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>指定したキーが押した状態から押してない状態に変わったかどうかを取得する。</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>method</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>key: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>キーの名前</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -682,7 +615,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/InputManager.ts#L36">ts/InputManager.ts:36</a></li>
+									<li>Defined in <a href="https://github.com/task58/Phaser3-Components/blob/8a01309/ts/ScreenManager.ts#L27">ts/ScreenManager.ts:27</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -700,10 +633,10 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/button.html">Button</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/inputmanager.html">Input<wbr>Manager</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/screenmanager.html">Screen<wbr>Manager</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -716,100 +649,94 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-module">
-						<a href="inputmanager.inputmanager-1.html" class="tsd-kind-icon">Input<wbr>Manager</a>
+						<a href="screenmanager.screenmanager-1.html" class="tsd-kind-icon">Screen<wbr>Manager</a>
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class">
-								<a href="inputmanager.inputmanager-1.html#constructor" class="tsd-kind-icon">constructor</a>
+								<a href="screenmanager.screenmanager-1.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#add" class="tsd-kind-icon">add</a>
+								<a href="screenmanager.screenmanager-1.html#add" class="tsd-kind-icon">add</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#anims" class="tsd-kind-icon">anims</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#cache" class="tsd-kind-icon">cache</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#cameras" class="tsd-kind-icon">cameras</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#children" class="tsd-kind-icon">children</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#data" class="tsd-kind-icon">data</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#events" class="tsd-kind-icon">events</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#facebook" class="tsd-kind-icon">facebook</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#game" class="tsd-kind-icon">game</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#input" class="tsd-kind-icon">input</a>
+								<a href="screenmanager.screenmanager-1.html#anims" class="tsd-kind-icon">anims</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
-								<a href="inputmanager.inputmanager-1.html#keys" class="tsd-kind-icon">keys</a>
+								<a href="screenmanager.screenmanager-1.html#autoresize" class="tsd-kind-icon">auto<wbr>Resize</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#lights" class="tsd-kind-icon">lights</a>
+								<a href="screenmanager.screenmanager-1.html#cache" class="tsd-kind-icon">cache</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#load" class="tsd-kind-icon">load</a>
+								<a href="screenmanager.screenmanager-1.html#cameras" class="tsd-kind-icon">cameras</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#make" class="tsd-kind-icon">make</a>
+								<a href="screenmanager.screenmanager-1.html#children" class="tsd-kind-icon">children</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#matter" class="tsd-kind-icon">matter</a>
+								<a href="screenmanager.screenmanager-1.html#data" class="tsd-kind-icon">data</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#physics" class="tsd-kind-icon">physics</a>
+								<a href="screenmanager.screenmanager-1.html#events" class="tsd-kind-icon">events</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#plugins" class="tsd-kind-icon">plugins</a>
+								<a href="screenmanager.screenmanager-1.html#facebook" class="tsd-kind-icon">facebook</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#registry" class="tsd-kind-icon">registry</a>
+								<a href="screenmanager.screenmanager-1.html#game" class="tsd-kind-icon">game</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#renderer" class="tsd-kind-icon">renderer</a>
+								<a href="screenmanager.screenmanager-1.html#input" class="tsd-kind-icon">input</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#scale" class="tsd-kind-icon">scale</a>
+								<a href="screenmanager.screenmanager-1.html#lights" class="tsd-kind-icon">lights</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#scene" class="tsd-kind-icon">scene</a>
+								<a href="screenmanager.screenmanager-1.html#load" class="tsd-kind-icon">load</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#sound" class="tsd-kind-icon">sound</a>
+								<a href="screenmanager.screenmanager-1.html#make" class="tsd-kind-icon">make</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#sys" class="tsd-kind-icon">sys</a>
+								<a href="screenmanager.screenmanager-1.html#matter" class="tsd-kind-icon">matter</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#textures" class="tsd-kind-icon">textures</a>
+								<a href="screenmanager.screenmanager-1.html#physics" class="tsd-kind-icon">physics</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#time" class="tsd-kind-icon">time</a>
+								<a href="screenmanager.screenmanager-1.html#plugins" class="tsd-kind-icon">plugins</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
-								<a href="inputmanager.inputmanager-1.html#tweens" class="tsd-kind-icon">tweens</a>
+								<a href="screenmanager.screenmanager-1.html#registry" class="tsd-kind-icon">registry</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#renderer" class="tsd-kind-icon">renderer</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#scale" class="tsd-kind-icon">scale</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#scene" class="tsd-kind-icon">scene</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#sound" class="tsd-kind-icon">sound</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#sys" class="tsd-kind-icon">sys</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#textures" class="tsd-kind-icon">textures</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#time" class="tsd-kind-icon">time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="screenmanager.screenmanager-1.html#tweens" class="tsd-kind-icon">tweens</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="inputmanager.inputmanager-1.html#create" class="tsd-kind-icon">create</a>
+								<a href="screenmanager.screenmanager-1.html#setautoresize" class="tsd-kind-icon">set<wbr>Auto<wbr>Resize</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="inputmanager.inputmanager-1.html#getkeydown" class="tsd-kind-icon">get<wbr>Key<wbr>Down</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="inputmanager.inputmanager-1.html#getkeyup" class="tsd-kind-icon">get<wbr>Key<wbr>Up</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="inputmanager.inputmanager-1.html#update" class="tsd-kind-icon">update</a>
+								<a href="screenmanager.screenmanager-1.html#update" class="tsd-kind-icon">update</a>
 							</li>
 						</ul>
 					</li>

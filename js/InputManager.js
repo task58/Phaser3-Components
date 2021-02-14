@@ -18,8 +18,8 @@ require("phaser");
 /**
  * 入力を管理するクラス。
  * シーンとしてのKeyは、"InputManager"なので、<br>
- * 使用したいところで<code>this.scene.launch("InputManager")</code>した後に、<br>
- * <code>this.scene.get("InputManager")</code>して利用してください。
+ * 使用したいところで`this.scene.launch("InputManager")`した後に、<br>
+ * `this.scene.get("InputManager")`して利用してください。
  * @module
  * @class
  * @since 0.1.0
@@ -28,9 +28,11 @@ require("phaser");
 var InputManager = /** @class */ (function (_super) {
     __extends(InputManager, _super);
     function InputManager() {
-        return _super.call(this, {
+        var _this = _super.call(this, {
             key: "InputManager"
         }) || this;
+        _this.keys = {};
+        return _this;
     }
     InputManager.prototype.create = function () {
         for (var index in Phaser.Input.Keyboard.KeyCodes) {
