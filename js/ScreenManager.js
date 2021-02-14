@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ScreenManager = void 0;
+require("phaser");
 /**
  * スクリーンに関係することを処理するクラス。
  * `this.scene.lunch("ScreenManager")`した後、`this.scene.get("ScreenManager")`してください。

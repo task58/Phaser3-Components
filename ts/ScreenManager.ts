@@ -1,3 +1,5 @@
+import "phaser";
+
 /**
  * スクリーンに関係することを処理するクラス。
  * `this.scene.lunch("ScreenManager")`した後、`this.scene.get("ScreenManager")`してください。
