@@ -25,10 +25,27 @@ export class ScreenManager extends Phaser.Scene{
         this.autoResize = value;
     }
 
+    /**
+     * 画面の中心座標を取得する。
+     * @param CameraX カメラのX座標
+     * @param CameraY カメラのY座標
+     */
+    public getCenterPosition(CameraX:number = 0,CameraY:number = 0):Vector2{
+        return {
+            x : this.game.canvas.width/2 + CameraX,
+            y : this.game.canvas.height/2 + CameraY
+        }
+    }
+
     update():void{
         if(this.autoResize){
             
             this.game.scale.resize(this.element.clientWidth,this.element.clientHeight);
         }
     }
+}
+
+export interface Vector2{
+    x:number;
+    y:number;
 }
