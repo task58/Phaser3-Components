@@ -5,6 +5,7 @@ import "phaser";
  * `this.scene.lunch("ScreenManager")`した後、`this.scene.get("ScreenManager")`してください。
  */
 export class ScreenManager extends Phaser.Scene{
+    private element = document.querySelector("html")
 
     private autoResize:boolean;
 
@@ -26,7 +27,8 @@ export class ScreenManager extends Phaser.Scene{
 
     update():void{
         if(this.autoResize){
-            this.game.scale.resize(window.innerWidth,window.innerHeight);
+            
+            this.game.scale.resize(this.element.clientWidth,this.element.clientHeight);
         }
     }
 }
